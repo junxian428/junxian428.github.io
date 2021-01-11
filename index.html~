@@ -8,8 +8,20 @@
    <hr>
    <p>Welcome to my personal blog. </p>
    <br>
-   <p>Here... Some URL linked to my personal website</p>
-   </p>
+   <header>
+	   <nav>
+              <ul>
+		      <li><a href="index.html">HOME</a></li>
+		      <li><a href="about.html">ABOUT</a></li>
+
+
+
+	      </ul>
+
+	  </nav>
+   
+  </header>
+   
 
 
    </body>
