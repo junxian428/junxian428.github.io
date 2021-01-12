@@ -18,7 +18,7 @@
     <header>
 	   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Profile</a>
+    <a class="navbar-brand" href="about.html">Profile</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -52,18 +52,18 @@
 </nav> 
     </header>
       <div class="col-4">
-	      <img src="https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/4/59/45940eb2-5403-11e9-a843-db0e4491cc90/5ca13d8453042.image.jpg" width ="100" height="100" >     
+	      <img src="https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/4/59/45940eb2-5403-11e9-a843-db0e4491cc90/5ca13d8453042.image.jpg" class="rounded-circle" width ="300" height="300" >     
       </div>     
-	      <div class="col-6">
-		      <div> Name: Ho Weng Yin</div>
-		      <div> Age: 20</div>
-		      <div> Academic Qualification: SPM & Foundation In Science </div>
+	      <div class="col-6 pt-5" >
+		      <div class="pr-5"> Name: Ho Weng Yin</div>
+		      <div class="pr-5"> Age: 20</div>
+		      <div class="pr-5"> Academic Qualification: SPM & Foundation In Science </div>
 
 	      </div>
 
 
     <footer>
-      WELCOME TO MY PERSONAL WEBSITE  	Email: holeyiho@gmail.com     
+      WELCOME TO MY PERSONAL WEBSITE           	Email: holeyiho@gmail.com     
     </footer>
   </body>
 </html>
