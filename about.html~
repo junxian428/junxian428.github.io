@@ -37,7 +37,6 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Interest</a></li>
             <li><a class="dropdown-item" href="#">Hobby</a></li>
-            <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Social Media</a></li>
           </ul>
         </li>
