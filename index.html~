@@ -52,8 +52,15 @@
 </nav> 
     </header>
       <div class="col-4">
-	      <img src="https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/4/59/45940eb2-5403-11e9-a843-db0e4491cc90/5ca13d8453042.image.jpg"alt="">     
+	      <img src="https://bloximages.newyork1.vip.townnews.com/redandblack.com/content/tncms/assets/v3/editorial/4/59/45940eb2-5403-11e9-a843-db0e4491cc90/5ca13d8453042.image.jpg" width ="100" height="100" >     
       </div>     
+	      <div class="col-6">
+		      <div> Name: Ho Weng Yin</div>
+		      <div> Age: 20</div>
+		      <div> Academic Qualification: SPM & Foundation In Science </div>
+
+	      </div>
+
 
     <footer>
       WELCOME TO MY PERSONAL WEBSITE  	Email: holeyiho@gmail.com     
