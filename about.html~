@@ -50,8 +50,22 @@
   </div>
 </nav> 
     </header>
-      About Me...
-
+    <div><h1>Project</h1>
+      </div>
+      <div>Java </div>
+      <div>Python</div>
+      <div>C#</div>
+      <div>PHP</div>
+      <div>Ruby</div>
+      <div>Kotlin</div>
+      <div>Go</div>
+      <br/><br/>
+      <div>Web Framework</div>
+      <div>Front End</div>
+      <div>Back End</div>
+      <div>Database</div>
+      <br/><br/>
+      <div>Linux</div>
     <footer>
       WELCOME TO MY PERSONAL WEBSITE           	Email: holeyiho@gmail.com     
     </footer>
