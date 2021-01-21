@@ -115,19 +115,10 @@
 	    <div class="pr-5">Working Experience: Service Crew, Promoter</div>
 	    <div class="pr-5">Languages: Mandarin, English and Malay</div>
 	    
-            </div>
-        
-        </div>	
-
-<div class="col-5 p-5">
-       Login Portal:
-       <a href="https://junxian428.github.io/login.php">
-       <img alt="Login" src="https://thumbs.gfycat.com/AnimatedDeficientAlleycat-size_restricted.gif"
-         width=100" height="100">
-      
-       </a>
+	    <div class="pr-5"> Login Portal:  <a href="login.php"> <img alt="Login" src="https://thumbs.gfycat.com/AnimatedDeficientAlleycat-size_restricted.gif" width=100" height="100"> </a></div>
 	</div>
 
+  </div>
      <div>
 	     <h3>COVID-19</h3>
 	     <scipt>
