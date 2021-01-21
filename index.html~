@@ -187,13 +187,10 @@
    <div class="col-7 pt-5" >
         
         <div>
-            <div class="pr-5">Name: Ho Weng Yin</div>
-            <div class="pr-5">Age:20</div>
-            <div class="pr-5">Nationality: Malaysian</div>
-	    <div class="pr-5">Relationship: Single </div>
-	    <div class="pr-5">Highest Qualification: Pre-U</div>
-	    <div class="pr-5">Working Experience: Service Crew, Promoter</div>
-	    <div class="pr-5">Languages: Mandarin, English and Malay</div>
+            <div class="pr-5" style="color:Pink  blackground-color:#000000;">Mr Robot </div>
+            <div class="pr-5" style="color:Pink  blackground-color:#000000;">Are You 1 or Zero?</div>
+            <div class="pr-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/HCM0RI6UGM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	   
 	    
 	    
 	</div>
