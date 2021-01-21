@@ -50,28 +50,28 @@
   </div>
 </nav> 
     </header>
-    <div><h1>Project</h1>
-      </div>
-      <div>Java </div>
-      <img src="https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg" width="100" height="100">
-      <div>Python</div>
-      <img src="https://th.bing.com/th/id/Rb18fd8d57290e40a045f114f231c7fcc?rik=571aMOv7MXTOcQ&riu=http%3a%2f%2fwww.vizteams.com%2fwp-content%2fuploads%2f2013%2f08%2fpython-logo-master.png&ehk=2eQ5w2%2bRo99pVr9LaO050drWPVA7CRc%2bOioAhTHSfNQ%3d&risl=&pid=ImgRaw" width="100" height="100">
-      <div>C#</div>
-      <div>PHP</div>
-      <div>Ruby</div>
-      <img src="https://th.bing.com/th/id/Re01d451135613c7dfc052b1cd6cd3ff4?rik=F%2bj9QOqX0QCDVQ&riu=http%3a%2f%2fblog.ittestsonline.com%2fwp-content%2fuploads%2f2015%2f03%2fruby-mini-logo.png&ehk=zy80bzn9OMFgKk%2fGvhCK%2f8oqtOsepNNmE3umuJAQBhA%3d&risl=&pid=ImgRaw" width="100" height="100">
-      <div>Kotlin</div>
+    <h3>Programming</h3>
+      <table id="t01">
+      <tr>
+      <th>No.</th>
+      <th>Language</th>
+      <th>Desciption</th>
+      </tr>
+      <tr>
+      <td>1.</td>
+      <td>Java</td>
+      <td> <img src="https://www.ophtek.com/wp-content/uploads/2014/08/java_tech.jpg" width="100" height="100"></td>
+     </tr>
+     <tr>
+     <td>2.</td>
+     <td>Python</td>
+     <td>    <img src="https://th.bing.com/th/id/Rb18fd8d57290e40a045f114f231c7fcc?rik=571aMOv7MXTOcQ&riu=http%3a%2f%2fwww.vizteams.com%2fwp-content%2fuploads%2f2013%2f08%2fpython-logo-master.png&ehk=2eQ5w2%2bRo99pVr9LaO050drWPVA7CRc%2bOioAhTHSfNQ%3d&risl=&pid=ImgRaw" width="100" height="100"></td>
+     </tr>
 
-      <div>Go</div>
-      <img src="https://th.bing.com/th/id/OIP.Ifpd_HtDiK9u6h68SZgNuAHaEL?pid=Api&rs=1" width="100" height="100">
-      <br/><br/>
-      <div>Web Framework</div>
-      <div>Front End</div>
-      <div>Back End</div>
-      <div>Database</div>
-      <br/><br/>
-      <div>Linux</div>
-    <footer>
+     <tr>
+
+   </table>
+      <footer>
       WELCOME TO MY PERSONAL WEBSITE           	Email: holeyiho@gmail.com     
     </footer>
   </body>
