@@ -126,10 +126,7 @@
 	</div>
 
   </div>
-     <div>
-	    
-	     </script>
-     </div>
+ 
 
 
 
@@ -166,7 +163,7 @@
 
 
        <div class="row">
-	      <div class="col-6 p-5">
+	      <div class="col-3 p-5">
 		      <div class="divScroll">
 			      Link :
                               <a href="https://www.wikipedia.org/">WikiPedia</a>
@@ -182,7 +179,7 @@
 	   </div>
       </div>
        
-   <div class="col-9 pt-5" >
+   <div class="col-7 pt-5" >
         
         <div>
             <div class="pr-5">Name: Ho Weng Yin</div>
