@@ -59,7 +59,11 @@
         border-radius: 50px;
         background-color: lightgreen;
       }
-
+      .divScroll {
+       overflow:scroll;
+       height:100px;
+       width:200px;
+      }
 
       
 </style>
@@ -82,9 +86,6 @@
         <li class="nav-item">
           <a class="nav-link" href="certificate.html">Certificate</a>
         </li>
-	<li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login.php">Login</a>
-	</li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Other
@@ -161,11 +162,38 @@
     </div>
     <p>Hello Friends. Briefly introduce myself. My name is Ho Weng Yin and you can call me Hawaii... Science stream background back to my secondary school. During Foudantion Semester 2, short semester, I have been introduced to Programming Concept. However, it's based on C language. We have completed assignment, its topic is finanical calculator. After that, I have my first raspberry pi 3B model before buying arduino uno for some small projects... Linux operating system, Rasbian and Kali Linux installed in memory card and booted by raspberry pi... If not mistaken, the coronavirus outbreak period, I have my raspberry pi 4 model 4 GB RAM for e-learning... Raspberry Pi teaches me a lot... such as shell command... scripting and etc... The most important thing is I have get used to GitHub... Mr Robot Drama Series is one of my favorite movie... From this movie, I have been inspired a lot by following the hacking scenes... Therefore, the networking basic concept has been improved a lot... One of the Youtube Tutorial, using the web server to distribute the trojan. From that, I have learned the web server, Apache2 and use Ngrok to host my server... All these makes me explore further... such as new languages, frameworks and etc... If you read until here, I can say thank you...</p>
 
+
+
+
+       <div class="row">
+	      <div class="col-6 p-5">
+		      <div class="divScroll">
+                              <a href="https://www.wikipedia.org/">WikiPedia</a>
+			      <a href="www.google.com">Google</a>
+                              <a href="www.youtube.com">Youtube</a>
+
+	   </div>
+      </div>
+       
+  <div class="col-8 pt-5" >
+        
+        <div>
+            <div class="pr-5">MEMES ZONE</div>
+
+
+          
+            
+	    
+	    
+	</div>
+
+  </div>
+
+
+
+
     <footer>
       WELCOME TO MY PERSONAL WEBSITE           	Email: holeyiho@gmail.com     
     </footer>
   </body>
-</html>
-
-
 </html>
