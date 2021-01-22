@@ -165,6 +165,7 @@
 
 		<tbody>
 			<tr id="data"></tr>
+	
 		</tbody>
 	</table>
 	<br>
@@ -185,6 +186,8 @@
 		      function init(){
                             var url = "https://api.covid19api.com/summary"
 			    var data = ''
+			
+
 		            $.get(url,function(data){
 
                                     console.log(data.Global)
@@ -198,6 +201,12 @@
 
 				 $("#data").html(data)
 			    })
+
+
+
+
+
+			                                                                                                                                                                                     $.get(url,function(MYdata){                                                                                                                                                                                                                                                                                                                                   console.log(MYdata.Country.Malaysia)                                                                                                                                                  data =`                                                                                                                                                                   <td>${MYdata.Country.Malaysia.TotalConfirmed}</td>                                                                                                                        <td>${MYdata.Country.Malaysia.TotalDeaths}</td>                                                                                                                           <td>${MYdata.Country.Malaysia.TotalRecovered}</td>                                                                                                                       `                                                                                                                                                                                                                                                                                                                                                  $("#MYdata").html(MYdata)                                                                                                                                                })
 		      }
 
 		      function refreshData(){
@@ -207,6 +216,7 @@
 
 		      function clearData(){
                              $("#data").empty()
+			     $("#MYdata").empty()
 			     
 		      }
 	     
