@@ -43,7 +43,7 @@
     </header>
 
 
-
+    Number <input id="numberbox" type="text"></input><br><br>
     Date <input id="datebox" type="text"></input> <br><br>
     Project Name <input id="namebox" type="text"></input><br><br>
     Description <input id="descriptionbox" type="text"></input><br><br>
@@ -54,7 +54,7 @@
     <button id="delete">DELETE</button>
 
     <script src ="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"</script>
-    <script src="https://gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
 	 
   <script id="MainScript">
@@ -71,22 +71,31 @@
       firebase.initializeApp(firebaseConfig);
  
 
-      var dateV, nameV, descriptionV ;
+      var numberV, dateV, nameV, descriptionV ;
 
        function Ready(){
            dateV = document.getElementById('datebox').value;
 	   nameV= document.getElementById('namebox').value;
 	   descriptionV = document.getElementById('descriptionbox').value;
+	   numberV = document.getElementById('numberbox').value;
         }
 
 	document.getElementById('insert').onclick = function(){
                  Ready();
-		 firebase.database().ref('date/'+ dateV).set({ 
-                            DateOfProject: dateV,
+		 firebase.database().ref('project/'+ numberV).set({ 
+                            NumberOfProject: numberV,
+			    DateOfProject: dateV,
 			    Name: nameV,
 			    Description: descriptionV
 		 });
 	}
+
+
+
+
+
+
+
 
   </script>
 
