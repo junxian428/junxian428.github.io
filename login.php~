@@ -50,17 +50,14 @@
 </nav> 
     </header>
 
+<form action='login.php' method='get'>
+Username: <input type='text' name='username'> 
+<br>
+Password:<input type='text' name='password'> 
+ <input type ='submit'>
 
 <?php
-   $username = $_POST["username"];
-   $password = $_POST["password"];
-   
-   if($username == "ho07177" && $password=="1234567")
-    echo "login successfully";
-   else {
-    echo "wrong password!!";
-   }
-    
+
 ?>
 
 
