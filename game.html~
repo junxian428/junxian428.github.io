@@ -1,4 +1,4 @@
-<html>
+ <html>
 <!doctype html>
 <html lang="en">
   <head>
@@ -49,8 +49,22 @@
   </div>
 </nav> 
     </header>
-      
-         
+     <table>
+       <tr>
+	       <th>No.</th>
+	       <th>Game </th>
+	       <th>Description</th>
+       </tr>
+
+       <tr>
+              <th>1.</th>
+	      <th><a href="tetris.html">Tetris Battle</a></th>
+	      <th>A fun javascript game</th>
+
+       </tr>
+       
+</table>
+
 
     <footer>
       WELCOME TO MY PERSONAL WEBSITE           	Email: holeyiho@gmail.com     
