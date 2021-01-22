@@ -198,7 +198,7 @@
 
 			
 					  `
-				   
+				  $("#data").html(data) 
 				})
 		      }                                                                                                                                                                                                                                                            
 		      function refreshData(){
