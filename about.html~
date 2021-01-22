@@ -51,7 +51,7 @@
 </nav> 
     </header>
     <h3>Programming</h3>
-      <table id="t01">
+      <table id="t01" style="border:1px solid blaok;">
       <tr>
       <th>No.</th>
       <th>Language</th>
