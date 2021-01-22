@@ -11,6 +11,11 @@ Login Page:
 
 https://www.formget.com/javascript-login-form/
 
+
+Javascript Multiple Lines:
+
+https://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript
+
 Github Pages Details...
 
 https://www.quora.com/How-can-I-run-my-PHP-content-on-GitHub-pages
