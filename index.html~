@@ -168,6 +168,10 @@
 			<tr id="data"></tr>
 		</tbody>
 	</table>
+	<br>
+	<button onclick="refreshData()"class="btn btn-danger btn-block">
+	 Refresh Data
+	</button>
 
 </div>
 
@@ -192,6 +196,16 @@
 
 				 $("#data").html(data)
 			    })
+		      }
+
+		      function refreshData(){
+                                  clearData()
+
+		      }
+
+		      function clearData(){
+                             $("#data").empty()
+			     init()
 		      }
 	      })
 	</script>
