@@ -44,16 +44,53 @@
 
 
 
+    Date <input id="datebox" type="text"></input> <br><br>
+    Project Name <input id="namebox" type="text"></input><br><br>
+    Description <input id="descriptionbox" type="text"></input><br><br>
+    <br><br>
+    <button id="insert">INSERT</button>
+    <button id="select">SELECT</button>
+    <button id="update">UPDATE</button>
+    <button id="delete">DELETE</button>
 
-		<h3>Application</h3><br>
-		<table style="width:100%">
-                       <tr>
-                       <th>No.</th>
-                       <th>Name</th>
-                       <th>Language</th>
-		       <th>Description</th>
-                   </tr>
-  
+    <script src ="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"</script>
+    <script src="https://gstatic.com/firebasejs/8.2.3/firebase-auth.js"></script>
+    <script src="https://gstatic.com/firebasejs/8.2.3/firebases-database.js"></script>
+	 
+  <script id="MainScript">
+       
+
+      var firebaseConfig = {
+          apiKey: "AIzaSyDDeVI-xbip3Bfp-1Ue1cDnYjCJ_E5sO2M",
+          authDomain: "junxian-github.firebaseapp.com",
+          projectId: "junxian-github",
+          storageBucket: "junxian-github.appspot.com",
+          messagingSenderId: "404796375641",
+          appId: "1:404796375641:web:fe24248ac468878b3f2748"
+      };
+      firebase.initializeApp(firebaseConfig);
+ 
+
+      var dateV, nameV, descriptionV ;
+
+       function Ready(){
+           dateV = document.getElementById('datebox').value;
+	   nameV= document.getElementById('namebox').value;
+	   descriptionV = document.getElementById('descriptionbox').value;
+        }
+
+	document.getElementById('insert').onclick = function(){
+                 Ready();
+		 firebase.database().ref('date/'+ dateV).set({ 
+                            DateOfProject: dateV,
+			    Name: nameV,
+			    Description: descriptionV
+		 });
+	}
+
+  </script>
+
+
           </table>
 	   
 	</body>
