@@ -112,6 +112,18 @@
 	      <div class="col-3 p-5">
 	 <img src="https://avatars.githubusercontent.com/u/58724748?s=460&u=bbfef7e83f45f6615602fddcebbc5491b8f1e1d1&v=4" class="rounded-circle" width ="200" height="200" >     
 	 <h3>Ho Weng Yin</h3><br>
+
+	  <form action="news.html">
+                      <button type="submit">News Feed</button>
+	  </form>
+
+	  <form action="financial.html">
+                       <button type="submit">Wen Yin's Financial</button>
+          </form>
+
+	  <form action="art.html">
+		  <button type=submit"> Arts</button>
+	  </form>
           <form action="music.html">
 		  <button type="submit"> Music Streaming</button>
           </form>
@@ -122,12 +134,18 @@
            <form action="game.html">
                   <button type="submit">Entertaining Game </button>
 	   </form>
+           
+          <form action="mobile.html">
+
+                          <button type="submit">Mobile Apps</button>
+	  </form>
 
 	  <form action="login.html">
               <button type="submit">Login Portal</button>
 	  </form>
          
-
+          
+	 
 	      </div>
 
 	      
