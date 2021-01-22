@@ -146,9 +146,58 @@
 <audio controls autoplay>
   <source src="background.mp3" type="audio/mpeg">
 </audio>
-<h3>Statistics</h3><br>
-<p>Malaysia COVID-19</p><br>
-<script src="https://public.flourish.studio/resources/v3/embedded.js"></script>
+
+
+<h3>Open Source Project</h3><br>
+
+
+<div class="container">
+	<h3>COVID</h3>
+	<br><br>
+	<table class="table table-hover">
+		<thead>
+                  <tr>
+
+			  <th>Total Cases</th>
+			  <th>Total Deaths</th>
+			  <th>Total Recovered</th>
+
+		  </tr>
+
+		</thead>
+
+		<tbody>
+			<tr id="data"></tr>
+		</tbody>
+	</table>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+              $(document).ready(function(){
+                  init()
+
+		      function init(){
+                            var url = "https://api.covid19api.com/summary"
+			    var data = ''
+		            $.get(url,function(data){
+
+                                    console.log(data.Global)
+				    data =`
+				    <td>${data.Global.TotalConfirmed}</td>
+				    <td>${data.Global.TotalDeaths}</td>
+				    <td>${data.Global.TotalRecovered}</td>
+                                
+				
+			          `
+
+				 $("#data").html(data)
+			    })
+		      }
+	      })
+	</script>
+
 
 
       <h3>MY STORIES</h3><br>

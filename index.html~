@@ -146,7 +146,9 @@
 <audio controls autoplay>
   <source src="background.mp3" type="audio/mpeg">
 </audio>
-
+<h3>Statistics</h3><br>
+<p>Malaysia COVID-19</p><br>
+<script src="https://public.flourish.studio/resources/v3/embedded.js"></script>
 
 
       <h3>MY STORIES</h3><br>
