@@ -41,7 +41,7 @@ function HumanPlayer(board){
  }
 
  function handleTurnTaken(event){
-    console.log("Turn taken")
+    event.target.innerText = 'X';
  }
 }
 
