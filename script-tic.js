@@ -49,9 +49,9 @@ function Board() {
 
     const positions = this.positions;
     winningCombinations.forEach((winningCombo) => {
-      const pos0InnerText = positions[winningCombo[0]].innerText;
-      const pos1InnerText = positions[winningCombo[1]].innerText;
-      const pos2InnerText = positions[winningCombo[2]].innerText;
+      const pos0InnerText = positions[winningCombo[0]].innerHTML;
+      const pos1InnerText = positions[winningCombo[1]].innerHTML;
+      const pos2InnerText = positions[winningCombo[2]].innerHTML;
       const isWinningCombo = pos0InnerText !== '' &&
         pos0InnerText === pos1InnerText && pos1InnerText === pos2InnerText;
       if (isWinningCombo) {
@@ -68,7 +68,7 @@ function Board() {
 
 function ComputerPlayer(board) {
   this.takeTurn = function() {
-    let availablePositions = board.positions.filter((p) => p.innerText === '');
+    let availablePositions = board.positions.filter((p) => p.innerHTML === '');
     const move = Math.floor(Math.random() * (availablePositions.length - 0));
     availablePositions[move].innerText = 'O';
   }
