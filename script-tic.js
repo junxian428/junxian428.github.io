@@ -10,10 +10,16 @@ function TicTacToeGame(){
   let turn = 0;
 	
   this.start = function(){
-     
+     const config = { childList: true};
+     const observer = new MutationObserver(() => takeTurn());
+     board.positions.forEach((el) => observer.observer(el,config));
 
 
   }
+
+	function takeTurn(){
+             console.log("Something Changed");
+	}
 
 
 
