@@ -43,3 +43,8 @@ h1{
   border-right: 10px solid black;
 
 }
+
+
+.winner {
+    color: blue;
+}

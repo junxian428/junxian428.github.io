@@ -26,6 +26,13 @@ h1{
 
 }
 
+
+.col:hover {
+  background-color: lightgrey;
+
+
+}
+
 .border-b {
 
   border-bottom: 10px solid black;
