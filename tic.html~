@@ -50,7 +50,10 @@
   </div>
 </nav> 
     </header>
-      
+    <div class="container">
+    <h1>Tic-Tac-Toe</h1> 
+
+    </div>
   </body>
 
 </html>
