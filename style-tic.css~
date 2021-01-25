@@ -15,9 +15,24 @@ h1{
  height: 100px;
 }
 
+.col  {
+ height:100px;
+ width: 100px;
+ float:left;
+ font-size: 100px;
+ text-align: center;
+ line-height: 100px;
+
+
+}
 
 .border-b {
 
   border-bottom: 10px solid black;
+
+}
+
+.border-r{
+  border-right: 10px solid black;
 
 }
