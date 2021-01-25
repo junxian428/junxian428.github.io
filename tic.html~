@@ -52,7 +52,10 @@
     </header>
     <div class="container">
     <h1>Tic-Tac-Toe</h1> 
+           <div class="row border-b">
+ 
 
+	   </div>
     </div>
   </body>
 
