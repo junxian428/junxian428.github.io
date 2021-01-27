@@ -22,8 +22,14 @@
      cartBtn.forEach(function(btn){
          btn.addEventListener('click',function(event){
             
-		 console.log(event.target);
+		 //console.log(event.target);
+                 
 
+		 if(event.target.parentElement.classList.contains('store-item-icon'))
+		 {
+                     console.log(event.target.parentElement);
+
+		 }
 	 }); 
 
      });
