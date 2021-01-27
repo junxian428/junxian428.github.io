@@ -27,7 +27,7 @@
 
 		 if(event.target.parentElement.classList.contains('store-item-icon'))
 		 {
-                     console.log(event.target.parentElement);
+                     console.log(event.target.parentElement.previousElementSibling);
 
 		 }
 	 }); 
