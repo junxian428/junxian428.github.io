@@ -40,10 +40,14 @@
 
 		     let price =
 			event.target.parentElement.parentElement.nextElementSibling.children[0].children[1].textContent;
+                     
+		     let finalPrice = price.slice(1).trim();
 
-		     console.log(price);
+                     item.price = finalPrice;
 
-		     console.log(item);
+		     //console.log(finalPrice);
+
+		     //console.log(item);
 		 }
 	 }); 
 

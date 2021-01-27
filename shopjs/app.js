@@ -48,6 +48,11 @@
 		     //console.log(finalPrice);
 
 		     //console.log(item);
+
+		     const cartItem = document.create('div');
+		     cartItem.classList('cart-item','d-flex','justify-content-between','text-capitalize','my-3');
+
+                    
 		 }
 	 }); 
 
