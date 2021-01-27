@@ -30,7 +30,9 @@
                      let fullPath =
 		     event.target.parentElement.previousElementSibling.src;
 		     let pos = fullPath.indexOf('shopimg')+7;
-		     console.log(fullPath);
+		     let partPath = fullPath.slice(pos);
+		     
+		     console.log(partPath);
 
 		 }
 	 }); 
