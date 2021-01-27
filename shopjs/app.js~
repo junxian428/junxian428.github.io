@@ -33,7 +33,7 @@
 		     let partPath = fullPath.slice(pos);
 		     
 		     const item= {};
-		     item.img = `img-cart$(partPath)`;
+		     item.img = `img-cart${partPath}`;
 		     console.log(item);
 		 }
 	 }); 
