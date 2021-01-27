@@ -32,8 +32,9 @@
 		     let pos = fullPath.indexOf('shopimg')+7;
 		     let partPath = fullPath.slice(pos);
 		     
-		     console.log(partPath);
-
+		     const item= {};
+		     item.img = `img-cart$(partPath)`;
+		     console.log(item);
 		 }
 	 }); 
 
