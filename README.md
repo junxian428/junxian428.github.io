@@ -19,6 +19,12 @@ Javascript Multiple Lines:
 
 https://stackoverflow.com/questions/805107/creating-multiline-strings-in-javascript
 
+Shopping Cart:
+
+https://github.com/john-smilga/js-cart-setup
+
 Github Pages Details...
 
 https://www.quora.com/How-can-I-run-my-PHP-content-on-GitHub-pages
+
+
