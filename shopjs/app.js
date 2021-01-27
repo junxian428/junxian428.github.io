@@ -34,11 +34,14 @@
 		     
 		     const item= {};
 		     item.img = `img-cart${partPath}`;
-		     let name = event.target.parentElement.parentElement.nextElementSibling.children(0).children(0).textContent;
+		     let name = 
+			event.target.parentElement.parentElement.nextElementSibling.children[0].children[0].textContent;
                      item.name = name;
 
+		     let price =
+			event.target.parentElement.parentElement.nextElementSibling.children[0].children[1].textContent;
 
-		     console.log(name);
+		     console.log(price);
 
 		     console.log(item);
 		 }
