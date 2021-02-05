@@ -174,7 +174,7 @@
 	  </form>
           <form action="compiler.html">
 
-              <button type="submit">Online Compiler</button>
+              <button type="submit">Ruby Online Compiler</button>
 	  </form>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
            
