@@ -6,6 +6,14 @@ For updating WEBSITE
 2. git commit -m "Initial commit"
 3. git push 
 
+
+
+1. git config --global user.name "Your Name"
+2. git config --global user.email "you@youraddress.com"
+3. git config --global push.default matching
+4. git config --global alias.co checkout
+5. git init
+
 Discussion
 Login Page:
 
