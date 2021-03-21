@@ -33,6 +33,60 @@ table, th, td {
 div.a {
     font-size: large;
 }
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+.blink-image {
+    -moz-animation: blink normal 2s infinite ease-in-out; /* Firefox */
+    -webkit-animation: blink normal 2s infinite ease-in-out; /* Webkit */
+    -ms-animation: blink normal 2s infinite ease-in-out; /* IE */
+    animation: blink normal 2s infinite ease-in-out; /* Opera and prob css3 final iteration */
+}
 </style>
 </head>
 <body>
@@ -50,9 +104,13 @@ div.a {
             </fieldset>
 	  </div>
 	  <divclass="a">
-               <h1 style="color:red">Notification</h1>
+               <h1 style="font-family:'Indie Flower'">Notification</h1>
 	       <div>
-                     THIS WEBSITE UNDER MAINTENANCE
+		       <img class="blink-image" src="https://www.baking-sense.com/wp-content/uploads/2018/10/corn-ice-cream-5a-1.jpg" height="200" width="200">
+		       <br>
+		       <i>Ice Cream Feast</i>
+		       <br>
+		       <iframe width="560" height="315" src="https://www.youtube.com/embed/97U86K_YR1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	       </div>
 
 	  </div>
