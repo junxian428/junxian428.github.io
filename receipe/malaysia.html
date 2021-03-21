@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weng Yin's Receipe</title>
+
+	<!-- Google Font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+        <!--Favicon-->          
+
+
+<style>
+a {
+	text-decoration: none;
+}
+ul {
+  list-style-type: "😋";
+}
+.menu {
+  display:flex;
+  justify-content:flex-start;
+}
+.author {
+ border: 2px solid black;
+}
+
+table, th, td {
+   border: 1px solid black;
+
+}
+
+body {
+
+    background-image: url("https://assets.grab.com/wp-content/uploads/sites/8/2019/04/16161841/nasi-lemak-delivery-kl.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imgbox {
+  float: left;
+  text-align: center;
+  width: 300px;
+  border: 1px solid gray;
+  margin: 4px;
+  padding: 6px;
+}
+
+button {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+	
+	<header>
+	
+	<div class="menu">
+	<div>
+            <fieldset style="width:200px">
+		    <legend><a href="index.html"><h1 style="font-family:'Indie Flower'">Weng Yin's Recipe</h1></a></legend>
+		    <nav><ul><li style="font-family:'Indie Flower'"><a href="signature.html"><strong>Signature Dishes</strong></a></li>
+				    <li style="font-family:'Indie Flower'"><a href="malaysia.html">Malaysian Cuisine</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="western.html">Western Cuisine</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="drink.html">Drink</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="desserts.html">Desserts</a></li></ul></nav>	    
+            </fieldset>
+	  </div>
+	  <div>
+		  <h3>Uncle Roger teaches you how to cook Nasi Lemak</h3>
+                <div class="imgbox" id="imgbox1">Uncle Roger<br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jaLl_-hIp47qZOM6V0P4aaB5KJmYpp7dRw&usqp=CAU" alt="Italy" style="width:100%">
+                <br>
+		<i>HAIYAAH... Dunno How to Cook</i>
+                <button onclick="showElement()">Show More</button>
+                </div>           
+		<div class="imgbox" id="imgbox2" style="visibility:hidden">How to Cook?<br>
+			<table>
+				<tr><td>
+						<img src="https://www.196flavors.com/wp-content/uploads/2020/10/nasi-lemak-4-FP.jpeg" alt="Lights" style="width:100%"></td>
+					<td>
+		  <i>First you need to cook the rice</i>
+		  <br>
+		  <button onclick="showmoreElement()">Show More</button>
+					</td>
+		  </tr>
+		  
+			</table>
+                 </div>
+
+		 <div class="imgbox" id="imgbox3" style="visibility:hidden">Chop Cili<br>
+			 <table>
+                               <tr>
+
+				       <td><img src="https://cdn.fanatikapps.com/wp-content/uploads/sites/5/2018/08/31040958/CILI-MERAH-2.jpg" alt="Lights" style="width:100%"></td>
+				       <td><i>Chop the cili, mixed with rice. Then finished</i>
+                                       <br>
+				       <button onclick="hideallElement()">Hide all</button>
+				       </td>
+
+			       </tr>
+
+			 </table>
+		          
+		 </div>
+	  </div>
+	</div>
+		 
+       				
+	</header>
+
+                    
+                       
+	<footer>
+                 <section id="contact">
+			     <br>
+                           <img src="https://media.tenor.com/images/cdd7d3363ce06141d15cf2852ef6aab3/tenor.gif" width="80px" height="80px">
+			     <div>
+                                     Contact Us:<br>
+				     <a href="https://www.instagram.com/yxian428/"><img src="https://pbs.twimg.com/profile_images/1306051401236099072/nuSA8oqW_400x400.jpg" height="80px" width="80px"></a>
+                                     <a href="https://www.facebook.com/edge.egde"><img src="https://play-lh.googleusercontent.com/6Sp9grilVISOGqi92M26BH49Tj6o_VX_gByA4u1rl8kAvqOoY9n5EzDEHcFEnGHlzg" height="80px" width="80px"></a>
+			             <a href="https://github.com/junxian428"><img src="http://pngimg.com/uploads/github/github_PNG40.png" height="80px" width="80px"></a>
+			     </div>
+			     </section>
+	</footer>
+
+</body>
+
+	<script>
+
+              function showElement() {
+
+                   document.getElementById("imgbox2").style.visibility = "visible";
+                   
+	      }
+        
+              function showmoreElement() {
+                   document.getElementById("imgbox3").style.visibility= "visible";
+	      }
+              function hideallElement() {
+                 document.getElementById("imgbox2").style.visibility = "hidden";
+		 document.getElementById("imgbox3").style.visibility = "hidden";
+	      }
+
+	</script>
+
+</html>
+

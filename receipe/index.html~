@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weng Yin's Receipe</title>
+
+	<!-- Google Font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+         
+        <!--stylecss-->
+	<link rel="stylesheet" href="style.css">
+        <!--Favicon-->          
+
+
+<style>
+a {
+	text-decoration: none;
+}
+ul {
+  list-style-type: "😋";
+}
+.menu {
+  display:flex;
+  justify-content:flex-start;
+}
+.menudesign {
+ border: 2px solid black;
+}
+
+table, th, td {
+   border: 1px solid black;
+
+}
+.submenu {
+  display: flex;
+  align-items:flex-end;
+}
+
+body {
+ background-image: url("https://wallpaperaccess.com/full/1332261.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+</style>
+</head>
+<body>
+	
+	<header>
+	<div class="menu">
+	<div>
+            <fieldset style="width:200px">
+		    <legend><a href=""><h1 style="font-family:'Indie Flower'">Weng Yin's Recipe</h1></a></legend>
+		    <nav><ul><li style="font-family:'Indie Flower'"><a href="signature.html"><strong>Signature Dishes</strong></a></li>
+				    <li style="font-family:'Indie Flower'"><a href="malaysia.html">Malaysian Cuisine</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="western.html">Western Cuisine</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="drink.html">Drink</a></li>
+				    <li style="font-family:'Indie Flower'"><a href="desserts.html">Desserts</a></li></ul></nav>	    
+            </fieldset>
+	  </div>
+	  <div>
+                   <h1 style="font-family:'Indie Flower'"><u>The Author</u></h1>
+                   <i>What's up. Welcome to my secret recipe.</i>
+		   <section id="about">
+                           <table>
+                                <tr>
+					<td><img src="https://avatars.githubusercontent.com/u/58724748?s=460&u=bbfef7e83f45f6615602fddcebbc5491b8f1e1d1&v=4" height="150" width="150"></td>
+					<td style="font-family:'Indie Flower'">
+						My Name: Ho Weng Yin<br>
+						Description: A traveller who discovers the miracles of the world. Here is my food adventure<br>
+						
+					</td>
+				</tr>
+			   </table>
+		   </section>
+	  </div>
+          
+	</div>
+	<div class="menu" >
+               <form class="menudesign" style="width:225px">
+                    
+		       <label>Page Section</label>
+		       <br>
+		       <br>
+		       <a href="#about">About</a>       
+		       <br>
+		       <a href="#post">Post</a>
+		       <br>
+		       <a href="#contact">Contact</a>
+               </form>
+	       <div style="width:1000px">
+		       <br>
+		       <br>
+		       <br>
+		       <br>
+		       <br>
+		       <br>
+		        
+                     <hr>
+	       </div>
+        </div>		
+	</header>
+	<body>
+        <div class="menu">
+	     <form style="width:225px">
+             Contact Number: 011-10867975
+	     </form>
+	     <br>
+	     <div>
+		     <button><h3>About</h3></button>
+		     <button><h3>Post</h3></button>
+		     <button><h3>Contact</h3></button>
+		     <br>
+		     <br>
+		     <section id="post">
+		      <div id="container" style="background-color: white">
+                                <div>
+                                      <article>
+					      <img src="https://cdn.cnn.com/cnnnext/dam/assets/160222142959-indonesian-food-indomie-9444-1900px-full-169.jpg" width="200px" height="200px">
+				      </article>
+				</div>
+				<div>
+                                      <article>
+                                             Travel around the travel, I cannot deny that this may be one of the greatest food I have tasted. This is called Indo Mee. In Bahasa Indonesia, this is called as Mi Goreng. When I bite it, it is tasted like crisper noodle. It gives my tastebud something total different than usual we ate in restaurant. Even the local gives this food at higher rate. Therefore, I buy ton of them back to my homeland and Surprise Them...
+				      </article>
+				</div>
+
+				<div>
+                                    <article>
+                                        Rate: 4.5/5.0
+				    </article>
+
+				</div>
+				
+
+			
+		      </div>
+		      <div id="container" style="background-color: white">
+
+                          <div>
+				  <article>
+					  <img src="https://storage.googleapis.com/burbcommunity-morethanthecurve/2020/11/mrbeast-burger-header.jpg" width="200px"height="200px">
+                                  </article>
+			  </div>
+			  <div>
+                                  <article>
+                                     For whom do not know Mr Beast burger, it could be one of the greatest burger in the world. When I thought that it could be expensive to buy one in United States. However, it turned out vice verse. I buy one burger then I get a brand-new car for no reason. Therefore, I shout out to anyone to subscribe Mr Beast in his Youtube Video. Thank this dude.
+				  </article>
+
+			  </div>
+			  <div> 
+                                <article>
+                                      Rate:4.9/5.0
+				</article>
+			  </div>
+		      </div>
+                      <div id="container" style="background-color:white">
+                     <div>
+                          <article>
+				  <img src="https://qph.fs.quoracdn.net/main-qimg-35819dcb6f2db0ce8aeb3190ab1f747b" height="200px" width="200px">
+			  </article>
+		     </div>
+		     <div>
+			     <article>
+				     Are you pizza lovers? If yes, this is for you. In India, I find this interesting. It is looked like the pizza but the way to eat this is different from pizza. You know how? The "Indian pizza" should be dipped into the curry before entering your mouth. It tastes so good and so different than the ordinary pizza. Big thumbs.
+				     </article>
+		     </div>
+		     <div>
+			     <article>Rate:3.9/5.0</article>
+		     </div>
+                      </div>
+		     </section>
+
+		     <footer>
+			     <section id="contact">
+			     <br>
+                           <img src="https://media.tenor.com/images/cdd7d3363ce06141d15cf2852ef6aab3/tenor.gif" width="80px" height="80px">
+			     <div style="background-color:white">
+                                     Contact Us:<br>
+				     <a href="https://www.instagram.com/yxian428/"><img src="https://pbs.twimg.com/profile_images/1306051401236099072/nuSA8oqW_400x400.jpg" height="80px" width="80px"></a>
+                                     <a href="https://www.facebook.com/edge.egde"><img src="https://play-lh.googleusercontent.com/6Sp9grilVISOGqi92M26BH49Tj6o_VX_gByA4u1rl8kAvqOoY9n5EzDEHcFEnGHlzg" height="80px" width="80px"></a>
+			             <a href="https://github.com/junxian428"><img src="http://pngimg.com/uploads/github/github_PNG40.png" height="80px" width="80px"></a>
+			     </div>
+			     </section>
+
+		     </footer>
+	     </div>
+        <div>
+        
+	</body>
+	
+                 
+	
+
+</body>
+
+
+
+</html>
