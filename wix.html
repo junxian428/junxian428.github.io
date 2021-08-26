@@ -42,10 +42,10 @@
         camera.position.y = 1;
         camera.position.z = 10;
 
-        const hlight = new AmbientLight (0x404040,100);
+        const hlight = new AmbientLight (0x404040,1);
         scene.add(hlight);
 
-        const directionalLight = new DirectionalLight(0xffffff,100);
+        const directionalLight = new DirectionalLight(0xffffff,1);
         directionalLight.position.set(0,1,0);
         directionalLight.castShadow = true;
         scene.add(directionalLight);
